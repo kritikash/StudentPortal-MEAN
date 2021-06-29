@@ -1,0 +1,13 @@
+
+<div ng-show= "a" > </br>
+    <form class="Chat">
+        <input type="text" placeholder="Your message here" ng-model="msg">
+        <button class="btn btn-primary"ng-click = "sendmsg()" id="chat-section">SEND</button>
+        
+    </form>
+    <div id="chats" class="chatStyle"></div>
+</div>
+ 
+<div ng-show= "!a" style="color:yellow; font-size:24px ;" > 
+   User not logged in, Please Login first </br>
+</div>

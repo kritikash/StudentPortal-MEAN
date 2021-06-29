@@ -1,0 +1,23 @@
+
+
+        <div ng-show= "a" style="color:yellow" > </br>
+                <button type="button" class="btn btn-default BtnStyle" ng-click="logout()">logout</button>   </br> </br> </br> 
+                <div uib-collapse="isCollapsed">
+                <div class="well well-lg">
+                        <button type="button" class="btn btn-default BtnStyle" ui-sref="viewschools">View Schools</button>
+                        <button type="button" class="btn btn-default BtnStyle" ui-sref="addschools" >Add Schools</button>
+                        <button type="button" class="btn btn-default BtnStyle" ui-sref="viewstudents">View Students</button>
+                        <button type="button" class="btn btn-default BtnStyle" ui-sref="addstudents">Add Students</button>
+                        <button type="button" class="btn btn-default BtnStyle" ui-sref="analytics" >Analytics</button>
+
+                        
+                        <button type="button" class="btn btn-default BtnStyle" ui-sref="chatdata">Chat</button>  
+              </div>
+        </div>
+
+        </div>
+
+        <div ng-show= "!a" style="color:yellow; font-size:24px ;" > 
+               User not logged in, Please Login first </br>
+        </div>
+        

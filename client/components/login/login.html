@@ -1,0 +1,22 @@
+<div class="modal-header FormStyle">
+<form name="myForm" novalidate required>
+<p>Email:<br>
+<input type="email" name="email" ng-model="email" required>
+</span>
+</p>
+<p>Password<br>
+<input type="password" name="password" ng-model="password" required>
+</p>
+
+<button class="btn btn-primary" type="button"  ng-click="LoginUser()">Submit</button>
+
+<div id="loginmsg" style="color:yellow"></div>
+<div ng-show= "a" style="color:yellow" > </br>
+   You can now visit Dashboard
+    <button type="button" class="btn btn-default BtnStyle"  ui-sref="dashboard">dashboard</button>
+</div>
+ 
+</form>
+</div>
+
+

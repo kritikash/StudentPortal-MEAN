@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+}
+
+
+.MainHeader{
+    align-items: right;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding: 40px;
+    /* background-color:#bef7cc; */
+}
+
+.BtnStyle{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px ;
+    width: 124px;    
+    margin: 10px;
+}
+
+.FormStyle{
+    color:green;
+    align-items: center;
+    padding-top: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+.dltbtn{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    }
+.modal {
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) { 
+    .modal:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      height: 100%;
+    }
+  }  
+  .modal-dialog {
+    top: 100px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .buttonStyle{
+
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+
+.BtnStyling{
+
+  color: black;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  align-items: center;
+  font-size: 10px;
+  padding: 5px ;
+  width: 124px;    
+  margin: 10px;
+
+}  
+
+.analytics{
+
+  background-color:#fcfc92;
+  border-color: #ffc107;
+  margin: 40px 0 0 180px;
+  font-size: 19px;
+  width: 350px;
+  align-items: center;
+
+}
+
+.Chat{
+ width: 400px;
+ align-items: center;
+ padding-left: 200px;
+ padding-top: 30px;
+ 
+}
+
+.chatStyle{
+  width: 400px;
+  color: yellow;
+  padding-top: 60px;
+  padding-left: 200px;
+  font-size: 14px;
+ }
+
+
+

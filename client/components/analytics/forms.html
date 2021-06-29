@@ -1,0 +1,27 @@
+
+ <button class="BtnStyling" ng-click="hideShow=(hideShow ? false : true); getstudentranking()">Student Ranking</button>
+ <button class="BtnStyling" ng-click="hideShow=(hideShow ? false : true); getschoolranking()">School Ranking</button>
+ <button class="BtnStyling" ng-click="hideShow=(hideShow ? false : true); getsub1topper()">Sub1 Toppers</button>
+ <button class="BtnStyling" ng-click="hideShow=(hideShow ? false : true); getsub2topper()">Sub2 Toppers</button>
+ <button class="BtnStyling" ng-click="hideShow=(hideShow ? false : true); gettopper()">Class Topper</button>
+ <button class="BtnStyling" ng-click="hideShow=(hideShow ? false : true); getsubject()">Best Subject</button>
+ <button class="BtnStyling" ng-click="hideShow=(hideShow ? false : true); gettopschool()">Best School</button>
+
+<div ng-if="hideShow" class="analytics">
+    <table class="table">
+        <thead>
+          <tr>                             
+            <th scope="col">Name</th>
+            <th scope="col">Total Marks</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="student in vm.students">
+            <td>{{student.name}}</td>
+            <td>{{student.marks}}</td> 
+          </tr> 
+          <tr>         
+          </tr>    
+        </tbody>
+    </table>
+</div>

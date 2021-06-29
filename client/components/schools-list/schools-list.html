@@ -1,0 +1,22 @@
+<div uib-collapse="isCollapsed">
+ 
+  <div class="well well-lg">
+  <p> Search:
+  <input type="text" ng-model = "CRUD.Search" > </p>
+  <table class="table">
+      <thead>
+        <tr>                
+          <th scope="col">Name</th>
+          <th scope="col">Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-click="Bind(school)" ng-repeat="school in vm.schools | filter: CRUD.Search">
+          <td>{{school.schoolName}}</td>
+          <td>{{school.location}}</td> 
+          <td><input type="button" value="Delete" class="dltbtn" ng-click="Delete(school)"></td>
+        </tr>          
+      </tbody>
+  </table>
+   </div>
+
